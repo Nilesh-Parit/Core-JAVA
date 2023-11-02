@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>PersonEmp1</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/ContractEmployee.java</name>
+			<type>1</type>
+			<location>C:/Users/IET/Desktop/java nilesh/PersonEmp/ContractEmployee.java</location>
+		</link>
+		<link>
+			<name>src/Employee.java</name>
+			<type>1</type>
+			<location>C:/Users/IET/Desktop/java nilesh/PersonEmp/Employee.java</location>
+		</link>
+		<link>
+			<name>src/Person.java</name>
+			<type>1</type>
+			<location>C:/Users/IET/Desktop/java nilesh/PersonEmp/Person.java</location>
+		</link>
+		<link>
+			<name>src/SalariedEmp.java</name>
+			<type>1</type>
+			<location>C:/Users/IET/Desktop/java nilesh/PersonEmp/SalariedEmp.java</location>
+		</link>
+		<link>
+			<name>src/TestEmployee.java</name>
+			<type>1</type>
+			<location>C:/Users/IET/Desktop/java nilesh/PersonEmp/TestEmployee.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
