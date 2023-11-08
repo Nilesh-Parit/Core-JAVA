@@ -1,11 +1,29 @@
 package Question1;
 
+import java.util.Arrays;
+
 public class SubQue2Bean
 {
 	private int studid;
 	private String name;
 	private int[] marks;
+	private double gpa;
 	
+	
+	public double getGpa() {
+		return gpa;
+	}
+
+	public void setGpa(double gpa) {
+		this.gpa = gpa;
+	}
+
+	@Override
+	public String toString() {
+		return "Student [studid=" + studid + ", name=" + name + ", marks=" + Arrays.toString(marks) + ", gpa=" + gpa
+				+ "]\n";
+	}
+
 	public SubQue2Bean(int studid, String name, int[] marks) 
 	{
 		this.studid = studid;
@@ -42,16 +60,4 @@ public class SubQue2Bean
 	{
 		this.marks = marks;
 	}
-
-	public void display()
-	{
-		System.out.println("Student Details:");
-		System.out.println("_______________");	
-		System.out.println("Student Id : "+studid);	
-		System.out.println("Name : "+name);
-		System.out.println("M1 : "+marks[0]);
-		System.out.println("M2 : "+marks[1]);
-		System.out.println("M3 : "+marks[2]);
-	}
-	
 }
