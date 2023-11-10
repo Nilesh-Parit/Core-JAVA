@@ -37,7 +37,7 @@ public class TestHashSet {
 			}
 			break;
 		case 3:
-			System.out.println("enetr id for modify");
+			System.out.println("enter id for modify");
 			id=sc.nextInt();
 			System.out.println("enter salary");
 			double sal=sc.nextDouble();

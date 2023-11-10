@@ -1,5 +1,6 @@
 package com.demo.test;
 
+import java.util.Collection;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Set;
@@ -27,7 +28,7 @@ public class TestHashMap {
 			eservice.addnewEmployee(ch);
 			break;
 		case 2:
-			System.out.println("enetr id for delete");
+			System.out.println("enter id for delete");
 			int id=sc.nextInt();
 			boolean status=eservice.deleteById(id);
 			if(status) {
@@ -38,7 +39,7 @@ public class TestHashMap {
 			}
 			break;
 		case 3:
-			System.out.println("enetr id for modify");
+			System.out.println("enter id for modify");
 			id=sc.nextInt();
 			System.out.println("enter salary");
 			double sal=sc.nextDouble();
@@ -57,7 +58,7 @@ public class TestHashMap {
 			}
 			break;
 		case 5:
-			System.out.println("enetr id for search");
+			System.out.println("enter id for search");
 			 id=sc.nextInt();
 			Employee e=eservice.displayById(id);
 			if(e!=null) {

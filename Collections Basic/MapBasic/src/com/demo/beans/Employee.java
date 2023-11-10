@@ -7,11 +7,9 @@ abstract public class Employee extends Person{
  private String desg;
  private LocalDate doj;
  public Employee() {
-	System.out.println("in employee default constructor");
 }
 public Employee(int pid, String pname, String mobile, String email,String dept, String desg, LocalDate doj) {
 	super(pid,pname,mobile,email);
-	System.out.println("in employee parametriesed constructor");
 	this.dept = dept;
 	this.desg = desg;
 	this.doj = doj;

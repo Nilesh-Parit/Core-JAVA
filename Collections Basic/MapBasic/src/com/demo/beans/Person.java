@@ -6,11 +6,9 @@ public class Person {
 	private String mobile;
 	private String email;
 	public Person() {
-		System.out.println("in person default constructor");
 		
 	}
 	public Person(int pid, String pname, String mobile, String email) {
-		System.out.println("in person paremterised  constructor");
 		this.pid = pid;
 		this.pname = pname;
 		this.mobile = mobile;
